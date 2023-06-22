@@ -7,7 +7,7 @@ public class Main {
 		System.out.println(findCeiling(arr, 3276));
 	}
 
-	public static int findCeiling(int[] arr, int target) { //return smallest num > target in arr
+	public static int findCeiling(int[] arr, int target) { //return smallest num >= target in arr
 		if(target>arr[arr.length-1]) {
 			return -1; //no num > target
 		}
